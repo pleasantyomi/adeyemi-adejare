@@ -68,7 +68,7 @@ export default function Hero() {
               {Array.from({ length: 5 }, (_, index) => (
                 <Image
                   key={index}
-                  src="/images/star.png"
+                  src="/images/starImage.png"
                   alt="star"
                   width={15}
                   height={15}
