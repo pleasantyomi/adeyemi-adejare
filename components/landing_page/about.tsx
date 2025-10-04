@@ -12,7 +12,7 @@ export default function About() {
         <ScrollAnimation>
           <div className="flex flex-col items-center justify-center w-[90%] md:w-9/12 h-full mx-auto">
             <div className="items-center justify-center md:flex ">
-              <div className="flex-shrink-0 flex-nowrap">
+              <div className="flex-shrink-0 flex-nowrap pb-5 md:pb-0">
                 <Image
                   src="/images/about-pic.png"
                   alt="About image"

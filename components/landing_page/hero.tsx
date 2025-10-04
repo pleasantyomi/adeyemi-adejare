@@ -11,18 +11,18 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <div id="home" className="relative w-full h-[67vh] md:h-screen pt-5">
+    <div id="home" className="relative w-full h-[78vh] md:h-screen pt-5">
       <Header />
 
       {/* Main Introductions */}
       <ScrollAnimation delay={0.2}>
-        <div className="relative md:pt-12 pt-20">
+        <div className="relative md:pt-12 pt-14">
           <Image
             src="/images/Vector.png"
             alt="vector"
             width={20}
             height={20}
-            className="absolute md:right-[36rem] md:top-[2rem] right-[9rem] top-[4rem]"
+            className="absolute md:right-[36rem] md:top-[2rem] right-[10rem] top-[2.5rem]"
           />
           <Image
             src="/images/Vector2.png"
