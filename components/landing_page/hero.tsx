@@ -11,7 +11,7 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <div id="home" className="relative w-full h-[78vh] md:h-screen pt-5">
+    <div id="home" className="relative w-full h-[80vh] md:h-screen pt-5">
       <Header />
 
       {/* Main Introductions */}
@@ -29,14 +29,14 @@ export default function Hero() {
             alt="vector"
             width={35}
             height={35}
-            className="absolute md:left-[23rem] md:bottom-[-2rem] left-[2rem] bottom-[-1.5rem]"
+            className="absolute md:left-[23rem] md:bottom-[-2rem] left-0 bottom-[-1.5rem]"
           />
           <Badge className="bg-transparent text-[14px] md:text-[18px] px-4 rounded-full border-[1px] dark:border-white dark:text-white border-black text-black font-[400] mx-auto block md:mb-0 mb-2">
             Hello!
           </Badge>
           <div>
             <h1
-              className={`grid text-4xl md:text-6xl font-semibold text-center ${urbanist.className}`}
+              className={`grid text-5xl md:text-6xl font-semibold text-center ${urbanist.className}`}
             >
               <span>
                 I&apos;m <span className="text-primary">Adeyemi</span>,
